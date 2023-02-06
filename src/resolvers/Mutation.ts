@@ -1,6 +1,7 @@
 // data base implementation
 import * as fs from 'fs';
 import dataModule from '../data/data.json';
+
 import JWT from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
@@ -75,7 +76,7 @@ const AuthResolvers = {
     const userAccount = dataModule.users.find(
       (user) => user.account === account,
     );
-    console.log(userAccount);
+
     if (!userAccount) {
       return {
         AuthError: [{ msg: 'Account or password is incorrect' }],
