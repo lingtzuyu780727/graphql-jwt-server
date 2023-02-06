@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "account": "test1@gmail.com",
+      "name": "test1",
+      "password": "$2a$10$A56nfHtmEWsf37xVBcJ93eK8H.e88autfy16SRBmQHsRI6vRluMmC",
+      "birth": "1999/09/09",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoidGVzdDFAZ21haWwuY29tIiwibmFtZSI6InRlc3QxIiwiaWF0IjoxNjc1NjY2NjM1LCJleHAiOjE2NzkyNjY2MzV9.rs47walelTJzIoLx82cmHuHPPaW-PJJzxLy8h3EiK8Q"
+    },
+    {
+      "account": "test2@gmail.com",
+      "name": "test2",
+      "password": "$2a$10$eWfnbdnWlvYGqJgjOBqjoezrF.P53y6h47KZh0bt5SSge6mqjKy7i",
+      "birth": "1939/10/20",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoidGVzdDJAZ21haWwuY29tIiwibmFtZSI6InRlc3QyIiwiaWF0IjoxNjc1NjY2Njk0LCJleHAiOjE2NzkyNjY2OTR9.6-rIIWTb0Ll1aiKbCXDqr-8UVzYV9j4KphbNbRSmjO8"
+    },
+    {
+      "account": "test3@gmail.com",
+      "name": "test3",
+      "password": "$2a$10$bEeh1WIfmwykn65r7K.hkObc9cLCcQDyGiCaDQ1u/dOL.Pmh80xBy",
+      "birth": "1939/10/20",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoidGVzdDNAZ21haWwuY29tIiwibmFtZSI6InRlc3QzIiwiaWF0IjoxNjc1NjY3NDI1LCJleHAiOjE2NzkyNjc0MjV9.tvoqrbXxEWAxFEbD8CDLyzLuoNXL_sW_UUit0OPgv80"
+    }
+  ]
+}
