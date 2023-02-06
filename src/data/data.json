@@ -90,6 +90,20 @@
       "password": "$2a$10$eNuqkt9mZbxobAeryyr1yuM5o2kWjoWYVEv3uEsgcaqwUoD/mZY7.",
       "birth": "1940/11/24",
       "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoidGVzdDExMjFAZ21haWwuY29tIiwibmFtZSI6InRlc3QxMjEiLCJpYXQiOjE2NzU2ODQ4NzYsImV4cCI6MTY3OTI4NDg3Nn0.KfiXcUwfbaUjdOKkcQ_IpfbBGnkiGATCSmBgGfLxI4k"
+    },
+    {
+      "account": "test11213@gmail.com",
+      "name": "test1231",
+      "password": "$2a$10$Ofs.DWVyWcwHkkBGSOynjedyIlrOXDffnwGnAi8yx41tFw1pPcozO",
+      "birth": "1940/11/24",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoidGVzdDExMjEzQGdtYWlsLmNvbSIsImlhdCI6MTY3NTY5MTYxNCwiZXhwIjoxNjc5MjkxNjE0fQ.9NL_NqjKR9pOf6e5DTXTXy47zuf6UXikZQGBEjOINgI"
+    },
+    {
+      "account": "test112131@gmail.com",
+      "name": "test1231",
+      "password": "$2a$10$suHzEbp68P1lpKjB88uob.dpVHjThF/eU8aPXSFh/tACYDJDCqZPu",
+      "birth": "1940/11/24",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoidGVzdDExMjEzMUBnbWFpbC5jb20iLCJpYXQiOjE2NzU2OTE2MjMsImV4cCI6MTY3OTI5MTYyM30.p9V4cmv_8IPzDK1WNqZsKyyyO3rgZbBluM9aVZ4x4c0"
     }
   ]
 }

@@ -1,4 +1,3 @@
-import * as fs from 'fs';
 import dataModule from '../data/data.json';
 
 import { Context } from '../index';
@@ -10,10 +9,10 @@ export const Query = {
     if (!userInfo) {
       return null;
     }
+
     const userProfile =
       dataModule.users.find((user) => user.account === userInfo.account) ||
       undefined;
-    console.log('userProfile', userProfile);
 
     // query db error
     if (!userProfile) {

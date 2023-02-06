@@ -1,13 +1,14 @@
 // data base implementation
 import * as fs from 'fs';
 import dataModule from '../data/data.json';
+import dotenv from 'dotenv';
 
 import JWT from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
-// const data = fs.readFileSync('../data/data.json', 'utf-8');
-// const dataJSON = JSON.parse(data);
-// console.log(dataJSON.users);
+dotenv.config();
+
+const jwtSecrect: string = process.env.TOKEN_SECRET!;
 
 interface SignupArgs {
   account: string;
@@ -47,7 +48,7 @@ const AuthResolvers = {
 
     // 1. use bcrypt to hash password & token
     const hashedPassword = await bcrypt.hash(password, 10);
-    const token = JWT.sign({ account }, 'secret', {
+    const token = JWT.sign({ account }, jwtSecrect, {
       expiresIn: 3600000,
     });
     // 2. push the data to dataJSON.users
@@ -95,7 +96,7 @@ const AuthResolvers = {
       };
     }
 
-    const token = JWT.sign({ account }, 'secret', {
+    const token = JWT.sign({ account }, jwtSecrect, {
       expiresIn: 3600000,
     });
     return {

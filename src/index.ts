@@ -1,8 +1,13 @@
 import { ApolloServer } from 'apollo-server';
-import 'dotenv/config';
+import dotenv from 'dotenv';
+
 import { typeDefs } from './schema';
 import { Query, Mutation } from './resolvers';
 import { verifyAccountFromToken } from './utils/getAccountFromJWT';
+
+dotenv.config();
+
+const port: number = Number(process.env.SERVER_PORT);
 
 export interface Context {
   userInfo: {
@@ -22,7 +27,7 @@ const server = new ApolloServer({
 });
 
 // TODO: change to dotenv later
-server.listen(3001, () => console.log(`Server is running on port 3001`));
+server.listen(port, () => console.log(`Server is running on port ${port}`));
 
 // async function startServer(): Promise<void> {
 //   const app = express();
