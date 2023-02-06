@@ -20,6 +20,13 @@
       "password": "$2a$10$bEeh1WIfmwykn65r7K.hkObc9cLCcQDyGiCaDQ1u/dOL.Pmh80xBy",
       "birth": "1939/10/20",
       "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoidGVzdDNAZ21haWwuY29tIiwibmFtZSI6InRlc3QzIiwiaWF0IjoxNjc1NjY3NDI1LCJleHAiOjE2NzkyNjc0MjV9.tvoqrbXxEWAxFEbD8CDLyzLuoNXL_sW_UUit0OPgv80"
+    },
+    {
+      "account": "test4@gmail.com",
+      "name": "test4",
+      "password": "$2a$10$hR3Dhn/efXqPZooWJsX7QeW/UmHo/EVfno/OKZ7pntfAaq8o1gvhS",
+      "birth": "1940/11/24",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoidGVzdDRAZ21haWwuY29tIiwiaWF0IjoxNjc1Njk0MTYyLCJleHAiOjE2NzkyOTQxNjJ9.8QLybEUazqNp8rVWY7VuQr8r9Fa_JF5gzE1eAiysGvE"
     }
   ]
 }
