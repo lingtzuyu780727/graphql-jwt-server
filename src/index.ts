@@ -21,28 +21,8 @@ const server = new ApolloServer({
   // req has different situations..
   context: async ({ req }: any): Promise<Context> => {
     const userInfo = await verifyAccountFromToken(req.headers.authorization);
-    // console.log('userInfo in index', userInfo);
     return { userInfo };
   },
 });
 
-// TODO: change to dotenv later
 server.listen(port, () => console.log(`Server is running on port ${port}`));
-
-// async function startServer(): Promise<void> {
-//   const app = express();
-//   const apolloServer = new ApolloServer({
-//     typeDefs: typeDefs,
-//     resolvers: resolvers,
-//   });
-//   await apolloServer.start();
-//   apolloServer.applyMiddleware({ app: app });
-
-//   app.use((req, res) => {
-//     res.send('Hello from express apollo');
-//   });
-
-//   app.listen(port, () => console.log(`Server is running on port ${port}`));
-// }
-
-// startServer();
